@@ -1,0 +1,20 @@
+body {
+  box-sizing: border-box;
+}
+
+header {
+  height: 65px;
+}
+
+.map-wrapper {
+  position: relative;
+  height: calc(100vh - 65px);
+}
+
+.map-canvas {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

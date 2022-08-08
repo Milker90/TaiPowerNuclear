@@ -1,0 +1,22 @@
+block header
+header
+  nav.navbar.navbar-expand-lg.navbar-light.bg-light
+    .container-fluid
+      a.navbar-brand.navbar-text(href='/') 
+        img(src="/assets/logo.png", alt="" style="max-width: 30px;")
+        span.align-middle.mx-3 台電核電廠疏散資訊平台
+      button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+        span.iconify.icon-dynamic-theme(data-icon="icon-park-outline:hamburger-button")
+      #navbarSupportedContent.collapse.navbar-collapse
+        ul.navbar-nav.me-auto.mb-2.mb-lg-0
+          li.nav-item
+            a.nav-link.active(aria-current='page' href='/') 首頁
+        ul.navbar-nav
+          li.nav-item.dropdown 
+            a#user-dropdown.nav-link.dropdown-toggle(href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false')
+              span#user 使用者 
+            ul.dropdown-menu(aria-labelledby='user-dropdown' style="z-index: 8000;")
+              li 
+                a#logout-button.dropdown-item(href='#') 登出
+
+

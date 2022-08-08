@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>shelter</name>
+	<gx:CascadingStyle kml:id="__managed_style_2C9BAFBDB722119AF4C3">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_158FE1D67C22119AF4C3">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0A79139BD422119AF4C3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_158FE1D67C22119AF4C3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2C9BAFBDB722119AF4C3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0DCC57D47622106C206F">
+		<name>防災避難所：新北市石門區乾華國民小學</name>
+		<description><![CDATA[<div>可容納避難人數：2485人<br></div>]]></description>
+		<LookAt>
+			<longitude>121.5915893343908</longitude>
+			<latitude>25.26787961152033</latitude>
+			<altitude>165.4623118178431</altitude>
+			<heading>91.48830396612064</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>375.7094650618456</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0A79139BD422119AF4C3</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						121.5927242151155,25.26936709478624,155.7746272416544 121.591467443033,25.2698145458301,155.3421249930302 121.5912488690274,25.2692288482484,156.972460540718 121.5911784307866,25.26902124528653,160.5899399024204 121.5913617967385,25.26889923086421,161.5149672125724 121.5912377543867,25.2685831197632,160.3102790578632 121.591462846699,25.26801740109562,163.0888404589347 121.5922112799318,25.26778731822552,167.7336904024955 121.5927242151155,25.26936709478624,155.7746272416544 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="03A4B3F5242210715546">
+		<name>防災避難所：新北市萬里區大鵬國民小學</name>
+		<description><![CDATA[<div>可容納避難人數：8459</div>]]></description>
+		<LookAt>
+			<longitude>121.651143109839</longitude>
+			<latitude>25.20832232488677</latitude>
+			<altitude>6.526448228339072</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>321.2839189556325</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0A79139BD422119AF4C3</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						121.6502803149337,25.2081139849869,4.733871479787126 121.6509749020071,25.20774981986629,5.966134625963193 121.6516143882007,25.20743427599919,10.58479448205837 121.6520120798704,25.20790915302729,9.171401848627802 121.652016316134,25.20833117137773,9.136962082000807 121.6521133986928,25.20846238623814,9.819019602659672 121.6520442702759,25.20852980389403,7.316009186983861 121.6516745316489,25.20851503962886,6.124401913962303 121.6513481702071,25.20860713229771,7.625247933137713 121.6506798300063,25.20895979246396,1.028627262128798 121.6504101501705,25.2086277232138,1.280428892550867 121.6505370181568,25.20855802638785,3.799727405786912 121.6502803149337,25.2081139849869,4.733871479787126 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="02FED0E1CC221073B1B3">
+		<name>防災避難所：屏東縣恆春鎮恆春國民小學南灣分校</name>
+		<description><![CDATA[<div>可容納避難人數：5541人<br></div>]]></description>
+		<LookAt>
+			<longitude>120.7585128471793</longitude>
+			<latitude>21.96805767572667</latitude>
+			<altitude>27.91983941284252</altitude>
+			<heading>7.965515719958866</heading>
+			<tilt>0.1371181685247066</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>397.0288467481441</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0A79139BD422119AF4C3</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						120.7578863796863,21.96759950850568,25.62870974632686 120.7591073609339,21.96832178292495,28.95578266921396 120.7585930717054,21.96905584170178,29.59828375174596 120.7579191999593,21.96874962230084,28.71186800917716 120.7572486149237,21.96825472902412,25.49672681937729 120.7578863796863,21.96759950850568,25.62870974632686 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

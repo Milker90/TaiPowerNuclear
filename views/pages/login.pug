@@ -1,0 +1,32 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title=title
+        include ../components/css.pug
+    body 
+        .container
+            .col-12.col-md-8.offset-md-2.col-lg-6.offset-lg-3.col-xl-4.offset-xl-4.mt-5
+                .card.shadow
+                    .card-title.text-center
+                    .card-body.text-center
+                        img(src="/assets/logo.png", alt="" style="max-width: 150px;")
+                        h3.mt-3.mb-5 台電核電廠疏散資訊平台
+                        form
+                            .form-floating.mb-2
+                                input#id-input.form-control(type="text" placeholder="帳號" required)
+                                label(for="id-input") 帳號
+                            .form-floating.mb-2
+                                input#pd-input.form-control(type="password" placeholder="密碼" required)
+                                label(for="pd-input") 密碼
+                            .captcha-wrapper
+                                .form-floating.mb-2
+                                    input#captcha-input.form-control(type="text" placeholder="驗證碼" required)
+                                    label(for="captcha-input") 驗證碼
+                                img#captcha-image.mx-3
+                                span#refresh-captcha-button.iconify.align-middle(data-icon="ant-design:reload-outlined" data-width="24" data-height="24" style="cursor: pointer;") refresh
+                            button#login-button.btn.btn-primary.btn-lg.mt-4(type="submit") 登入
+        include ../components/js.pug
+        script(src="/javascripts/login.js") 
